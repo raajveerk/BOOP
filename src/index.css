@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
+
+html {
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: white;
+  /* min-height: 100%; */
+  /* background-image: url(../public/boop-bg.png);
+  background-attachment: scroll; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+:root {
+  --light: #9CECFB;
+  --dark: #2d6ed6;
+  --pink: #f146aa;
+  --white: rgb(255, 255, 255);
+
+  --border: rgb(3, 169, 244);
+  --g1: rgb(98, 0, 234);
+  --g2: rgb(236, 64, 122);
+  --g3: rgb(253, 216, 53);
+
+  --darker: rgb(20, 20, 20);
+  --yellow: rgb(253, 216, 53);
+  --blue: rgb(98, 0, 234);
+  
+  --c1: #000000;
+  --c2: #2d6ed6;
+  
+  --left-color: var(--c1);
+  --right-color: var(--c2);
+}
+
+.wrapper {
+  /* height: 100vh; */
+  perspective: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapperForParallax {
+  transform-style: preserve-3d;
+  /* height: 100vh; */
+}
+
+.boop-bg {
+  background-image: url(../public/boop-bg.png);
+  transform: translateZ(-10px) scale(2);
+}
+
+.tele {
+  background-image: url(../public/tele.svg);
+  transform: translateZ(-2px) scale(1.5);
+}
+
+.planet {
+  background-image: url(../public/planet.svg);
+  transform: translateZ(-7px) scale(3);
+}
+
+.moon {
+  background-image: url(../public/moon.svg);
+  transform: translateZ(-5px) scale(3);
+}
+
+.rocket {
+  background-image: url(../public/rocket.svg);
+  transform: translateZ(-2px) scale(1.5);
+  rotate: 18deg;
+}
+
+.spaceman {
+  background-image: url(../public/spaceman.svg);
+  transform: translateZ(-4px) scale(1.5);
+}
+
+.foreground {
+  transform: translateZ(0px) scale(2);
 }
