@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/boop/static/css/main.e438a363.css",
+    "main.js": "/boop/static/js/main.8c1cf1ed.js",
+    "static/js/787.ceddd760.chunk.js": "/boop/static/js/787.ceddd760.chunk.js",
+    "static/media/planet.svg": "/boop/static/media/planet.ac1b24749a7d2676ad6e.svg",
+    "static/media/tele.svg": "/boop/static/media/tele.592b7f9a503e811dbc96.svg",
+    "static/media/moon.svg": "/boop/static/media/moon.20f9bba930a921b804cf.svg",
+    "static/media/boop-bg.png": "/boop/static/media/boop-bg.0a4d021f05f8a0678504.png",
+    "static/media/rocket.svg": "/boop/static/media/rocket.b3cbce174473eacb5c79.svg",
+    "static/media/sunglasses.png": "/boop/static/media/sunglasses.5ca310f6bd180d2c02ab.png",
+    "static/media/spaceman.svg": "/boop/static/media/spaceman.ce886267374050a5b3a0.svg",
+    "index.html": "/boop/index.html",
+    "main.e438a363.css.map": "/boop/static/css/main.e438a363.css.map",
+    "main.8c1cf1ed.js.map": "/boop/static/js/main.8c1cf1ed.js.map",
+    "787.ceddd760.chunk.js.map": "/boop/static/js/787.ceddd760.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e438a363.css",
+    "static/js/main.8c1cf1ed.js"
+  ]
+}
