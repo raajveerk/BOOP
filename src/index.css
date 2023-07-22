@@ -189,3 +189,46 @@ body {
 .foreground {
   transform: translateZ(0px) scale(2);
 }
+
+@media screen and (max-width: 768px) {
+  .blobUno {
+    transform: translateZ(-10px) scale(2);
+  }
+
+  .blobBackground {
+    animation: blobAm 8s ease-in-out infinite;
+    transform: translateZ(-3px) scale(1.25);
+  }
+  
+  .tele {
+    background-image: url(../public/tele.svg);
+    transform: translateZ(-2px) scale(0.75);
+  
+  }
+  .line {
+    background-image: url(../public/lines.svg);
+    transform: translateZ(-4px) scale(1.1);
+    rotate: -35deg;
+  }
+  
+  .planet {
+    background-image: url(../public/planet.svg);
+    transform: translateZ(-7px) scale(2);
+  }
+  
+  .moon {
+    background-image: url(../public/moon.png);
+    transform: translateZ(-5px) scale(1.75);
+  }
+  
+  .rocket {
+    background-image: url(../public/rocket.svg);
+    transform: translateZ(-2px) scale(0.6);
+    rotate: 18deg;
+  }
+  
+  .spaceman {
+    background-image: url(../public/spaceman.svg);
+    transform: translateZ(-4px) scale(0.75);
+  }
+}
