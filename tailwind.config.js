@@ -3,7 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      cursive: ['ui-cursive', 'Tektur']
+      cursive: ['ui-cursive', 'Tektur'],
+      sans: ['ui-sans-serif', 'Anton']
     },
     extend: {
       colors: {

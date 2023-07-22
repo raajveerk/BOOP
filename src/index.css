@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 html {
   height: 100vh;
@@ -30,14 +31,92 @@ body {
   --g3: rgb(253, 216, 53);
 
   --darker: rgb(20, 20, 20);
-  --yellow: rgb(253, 216, 53);
+  --green: rgb(253, 216, 53);
   --blue: rgb(98, 0, 234);
+  --teal: rgb(8, 145, 178);
   
   --c1: #000000;
   --c2: #2d6ed6;
   
   --left-color: var(--c1);
   --right-color: var(--c2);
+}
+
+@keyframes float {
+  from, to {
+    transform: translateY(-0%);
+  }
+  
+  50% {    
+    transform: translateY(-3%);
+  }
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 1000% center;
+  }
+  
+  to {
+    background-position: 0% center;
+  }
+}
+
+.word {
+  transition: opacity 250ms ease;
+}
+
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+  opacity: 0.2;
+}
+
+.fancy span {
+  display: inline-block;
+}
+
+.fancy > .outer {
+  transition: transform 350ms ease;
+}
+
+.fancy:hover > .outer {
+  transition-duration: 800ms;
+}
+
+.fancy:hover > .outer > .inner {
+  animation: float 5s ease infinite;
+}
+
+.fancy:hover > .outer > .inner > .letter {
+  background: linear-gradient(
+    to right,
+    var(--teal),
+    var(--green),
+    var(--teal)
+  );
+  background-size: 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: background-pan 100s linear infinite;
+}
+
+.fancy:hover > .uno {
+  transform: translate(-130%, 70%) rotate(8deg);
+}
+
+.fancy:hover > .dos {
+  transform: translate(-40%, 20%) rotate(4deg);
+}
+
+.fancy:hover > .tres {
+  transform: translate(30%, 60%) rotate(-6deg);
+}
+
+.fancy:hover > .quattro {
+  transform: translate(50%, -38%) rotate(-8deg);
+}
+
+.fancy:hover > .sinko {
+  transform: translate(90%, 30%) rotate(5deg);
 }
 
 .wrapper {
@@ -68,7 +147,7 @@ body {
 }
 
 .moon {
-  background-image: url(../public/moon.svg);
+  background-image: url(../public/moon.png);
   transform: translateZ(-5px) scale(3);
 }
 
