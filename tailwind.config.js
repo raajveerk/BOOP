@@ -8,9 +8,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        'grad-uno': '#2d6ed6',
-        'grad-dos': '#f146aa',
-        'grad-tres': '#2e5984',
+        'grad-uno': '#130713',
+        'grad-dos': 'rgb(8, 145, 178)',
+        'grad-tres': 'rgb(96, 165, 250)',
       },
     },
   },

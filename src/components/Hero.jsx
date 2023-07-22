@@ -51,9 +51,9 @@ export const Hero = () => {
   // enhance("channel-link");
 
   return (
-    <div className='mx-auto h-[1100px] w-full flex items-center bg-transparent wrapperHero'>
-        <div className='flex flex-col justify-center items-center text-center mt-0'>
-            <h1 className='mt-[1595px] flex flex-col'>
+    <div className='mx-auto h-screen w-full flex items-center bg-transparent wrapperHero'>
+        <div className='flex flex-col justify-center items-center text-center mt-[1825px]'>
+            <h1 className='flex flex-col'>
               {/* <img src={emo1} alt="sunglasses" className='absolute h-[25px] w-[25px] top-[15px] rotate-12 left-[165px] z-[10]'/> */}
                 <p className='p-0 m-0 text-4xl z-[20] font-bold text-[#130713] text-center font-cursive'>Hello</p> <br />
                 <p className='mt-[-20px] text-lg font-cursive font-normal text-center text-[#130713]'>Stranger from the Internet!</p>
@@ -131,7 +131,7 @@ export const Hero = () => {
                   </p>
               </motion.a>
             </div>
-            <div className='mt-[275px] mx-auto space-x-4 grid grid-cols-3 xl:w-[400px] lg:w-[400px] md:w-[370px] sm:w-[275px] w-[150px]'>
+            <div className='mt-[225px] mb-[110px] mx-auto space-x-4 grid grid-cols-3 xl:w-[400px] lg:w-[400px] md:w-[370px] sm:w-[275px] w-[150px]'>
                 <div className='flex'>
                   <h1 className='w-[150px] text-left text-lg font-sans font-normal text-[#130713] items-left'>
                     <span>Wanna Cook?</span><br />

@@ -6,17 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-html {
-  height: 100vh;
-}
 
 body {
   background-color: white;
   /* min-height: 100%; */
   /* background-image: url(../public/boop-bg.png);
   background-attachment: scroll; */
-  height: 100vh;
-  overflow: hidden;
 }
 
 :root {
@@ -59,6 +54,24 @@ body {
   
   to {
     background-position: 0% center;
+  }
+}
+
+@keyframes blobAm {
+  0% {
+    border-radius: 19.3em 26.6em 15.42em 21.88em;
+  }
+  25% {
+    border-radius: 18.68em 43.33em 16.26em 15.58em;
+  }
+  50% {
+    border-radius: 12.44em 15.52em 69.42em 27.9em;
+  }
+  75% {
+    border-radius: 35.78em 18.62em 12.12em 9.38em;
+  }
+  100% {
+    border-radius: 19.3em 26.6em 15.42em 21.88em;
   }
 }
 
@@ -120,7 +133,7 @@ body {
 }
 
 .wrapper {
-  /* height: 100vh; */
+  height: 100vh;
   perspective: 10px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -128,17 +141,28 @@ body {
 
 .wrapperForParallax {
   transform-style: preserve-3d;
-  /* height: 100vh; */
+  height: 100%;
 }
 
-.boop-bg {
-  background-image: url(../public/boop-bg.png);
-  transform: translateZ(-10px) scale(2);
+.blobUno {
+  background-image: url(../public/blobUnoComp.png);
+  transform: translateZ(-10px) scale(4);
+}
+
+.blobBackground {
+  animation: blobAm 8s ease-in-out infinite;
+  transform: translateZ(-6px) scale(1.5);
 }
 
 .tele {
   background-image: url(../public/tele.svg);
   transform: translateZ(-2px) scale(1.5);
+
+}
+.line {
+  background-image: url(../public/lines.svg);
+  transform: translateZ(-4px) scale(2.5);
+  rotate: -35deg;
 }
 
 .planet {
