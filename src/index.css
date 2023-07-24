@@ -190,7 +190,7 @@ body {
   transform: translateZ(0px) scale(2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
 
   .blobUno {
     transform: translateZ(-10px) scale(2);
@@ -231,5 +231,44 @@ body {
   .spaceman {
     background-image: url(../public/spaceman.svg);
     transform: translateZ(-4px) scale(0.75);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .blobUno {
+    transform: translateZ(-4px) scale(2.2);
+  }
+
+  .blobBackground {
+    animation: blobAm 8s ease-in-out infinite;
+    transform: translateZ(-3px) scale(1.8);
+  }
+  
+  .tele {
+    background-image: url(../public/tele.svg);
+    transform: translateZ(-2px) scale(1);
+  
+  }
+  
+  .planet {
+    background-image: url(../public/planet.svg);
+    transform: translateZ(-5px) scale(2.5);
+  }
+  
+  .moon {
+    background-image: url(../public/moon.png);
+    transform: translateZ(-5px) scale(2.3);
+  }
+  
+  .rocket {
+    background-image: url(../public/rocket.svg);
+    transform: translateZ(-2px) scale(0.9);
+    rotate: 18deg;
+  }
+  
+  .spaceman {
+    background-image: url(../public/spaceman.svg);
+    transform: translateZ(-4px) scale(0.9);
   }
 }

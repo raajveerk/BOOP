@@ -52,7 +52,7 @@ export const Hero = () => {
 
   return (
     <div className='mx-auto h-screen w-full flex items-center bg-transparent wrapperHero'>
-        <div className='flex flex-col justify-center items-center text-center mt-[1850px] md:mt-[1825px]'>
+        <div className='flex flex-col justify-center items-center text-center mt-[1850px] md:mt-[2025px] lg:mt-[1825px]'>
             <h1 className='flex flex-col'>
               {/* <img src={emo1} alt="sunglasses" className='absolute h-[25px] w-[25px] top-[15px] rotate-12 left-[165px] z-[10]'/> */}
                 <p className='p-0 m-0 text-4xl md:text-4xl z-[20] font-bold text-[#130713] text-center font-cursive'>Hello</p> <br />
@@ -60,7 +60,7 @@ export const Hero = () => {
 
                 <h3 className='text-[#130713] text-center mx-auto pt-[100px] items-center  justify-center animate-bounce text-xs md:text-md'><HiArrowNarrowDown /></h3>
             </h1>
-            <h1 id="text" className='mx-auto cursor-default flex flex-col mt-[180px] md:mt-[110px]'>
+            <h1 id="text" className='mx-auto cursor-default flex flex-col mt-[180px] md:mt-[165px] lg:mt-[110px]'>
               <p className='word font-cursive font-normal text-sm md:text-lg text-[#130713] mx-auto items-center text-center word'>Welcome to</p>
               <p id="channel-link" className='word fancy inner text-6xl md:text-8xl font-sans text-cyan-600 text-center flex font-semibold ml-[20px] md:ml-[25px] mt-[12px] md:mt-[18px]'>
                 {/* BOOP */}
@@ -99,42 +99,42 @@ export const Hero = () => {
               </p>
               <p className='word font-cursive font-normal text-xs md:text-lg text-[#130713] mt-[0px] mx-auto items-center text-center word'>(Blown out of Proportions.)</p>
             </h1>
-            <h1 className='mx-auto flex flex-col mt-[225px]'>
+            <h1 className='mx-auto flex flex-col md:mt-[255px] mt-[225px] lg:mt-[225px]'>
                 <h3 className='text-center items-center mx-auto flex flex-col'>
                   <span className='text-2xl md:text-3xl font-normal font-sans text-red-400'>WHO BOOP?</span>
                   <span className='text-[1.2rem] md:text-2xl font-normal font-sans text-green-600 mt-[-5px] md:mt-[-3px]'>WHAT BOOP?</span>
                   <span className='text-[1.15rem] md:text-[1.40rem] font-normal font-sans text-blue-400 mt-[-5px] md:mt-[-6px]'>WHY BOOP?</span>
                 </h3>
             </h1>
-            <div className='xl:w-[510px] lg:w-[455px] md:w-[370px] sm:w-[275px] w-[175px] rounded-2xl bg-teal-200 bg-opacity-100 drop-shadow-lg border-blue-950 border-4 backdrop-blur-md mt-[35px]'>
+            <div className='xl:w-[510px] lg:w-[455px] md:w-[345px] sm:w-[275px] w-[175px] rounded-2xl bg-teal-200 bg-opacity-100 drop-shadow-lg border-blue-950 border-4 backdrop-blur-md mt-[35px]'>
                 <p className='text-[0.56rem] md:text-[0.8rem] font-normal md:justify-center font-cursive text-[#130713] md:items-center md:text-center p-[15px]'>
                   <span className='font-semibold'>BOOP</span> is a Multi-Media Agency, run by a bunch of college mates, that speacializes in <span className='font-semibold '>Digital Media and Web-Development.</span> With more than four years of experience in curating digital media and web-designs, BOOP is here to <span className='font-semibold'>SUPERCHARGE</span> your business/brand that leaves people saying "Whoa, that brand has <span className='font-semibold'>Blown Out Of Proportions!</span>". 
                 </p>
             </div>
             <div className='items-center flex flex-col mx-auto mt-[210px]'>
-              <h1 className='font-normal font-cursive text-[0.65rem] md:text-sm text-[#130713] w-[175px] md:w-[400px] rounded-2xl items-center text-center border-2 border-[#130713] p-[10px]'>
+              <h1 className='font-normal font-cursive text-[0.65rem] md:text-xs lg:text-sm text-[#130713] w-[175px] md:w-[345px] lg:w-[400px] rounded-2xl items-center text-center border-2 border-[#130713] p-[10px]'>
                 Here at <span className='font-semibold'>BOOP,</span> we are big fans of <span className='font-semibold'>Visual Learning.</span><br />
                 So, naturally we'd suggest you to check our work out. <br /><span className='hidden md:block'>That'll aid you to go for an informed decision.</span>
               </h1>
-              <div className='grid grid-cols-2 justify-between items-stretch w-[175px] md:w-full h-[65px] md:h-[105px] space-x-2 mt-[35px] md:mt-[45px]'>
+              <div className='grid grid-cols-2 justify-between items-stretch w-[175px] md:w-[345px] lg:w-full h-[65px] md:h-[85px] lg:h-[105px] space-x-2 mt-[35px] md:mt-[45px]'>
                 <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href='https://drive.google.com/drive/folders/1yIdBnonTQU85xOR7_c4mWW7piXZ3qeon?usp=drive_link' rel='noopener' target='_blank' className='bg-green-200 linkUno bg-opacity-100 border-2 rounded-xl border-[#130713]'>
-                  <p className='font-semibold font-cursive text-[0.65rem] leading-3 md:leading-normal md:text-xs text-[#130713] items-center flex flex-col text-center md:p-[31px] p-[10px]'>
+                  <p className='font-semibold font-cursive text-[0.65rem] leading-3 md:leading-normal md:text-xs text-[#130713] items-center flex flex-col text-center lg:p-[31px] md:p-[24px] p-[10px]'>
                     <span className='text-xl mb-[-10px] mt-[7px] md:mt-0 md:mb-[-12px] font-semibold text-center items-center mx-auto'><GoFileMedia /></span> <br /> Digital Media
                   </p>
                 </motion.a>
                 <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href='https://docs.google.com/document/d/1uzy4BblCAfzfNiIpplGQlaMF_UkgSG81qn_TSl-DNPY/edit?usp=sharing' rel='noopener' target='_blank' className='bg-green-200 bg-opacity-100 border-2 rounded-xl border-[#130713]'>
-                  <p className='font-semibold font-cursive text-[0.65rem] md:leading-normal leading-3 md:text-xs text-[#130713] items-center flex flex-col text-center md:p-[30px] p-[10px]'>
+                  <p className='font-semibold font-cursive text-[0.65rem] md:leading-normal leading-3 md:text-xs text-[#130713] items-center flex flex-col text-center lg:p-[31px] md:p-[24px] p-[10px]'>
                     <span className='text-[1.40rem] md:mt-0 mt-[0px] mb-[-8px] md:mb-[-12px] font-semibold text-center items-center mx-auto'><TbWorldWww /></span> <br /> Web Development
                   </p>
                 </motion.a>
               </div>
-              <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href='https://docs.google.com/document/d/1-Dk5zWl_6xnPOpuVLCRyuQcCdoE_QV9JeV94TMaZasc/edit?usp=sharing' rel='noopener' target='_blank' className='w-full h-[85px] md:h-[105px] mt-4 md:mt-3 bg-cyan-400 bg-opacity-100 border-2 rounded-xl border-[#130713]'>
+              <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href='https://docs.google.com/document/d/1-Dk5zWl_6xnPOpuVLCRyuQcCdoE_QV9JeV94TMaZasc/edit?usp=sharing' rel='noopener' target='_blank' className='w-full h-[85px] md:h-[105px] mt-4 md:mt-5 lg:mt-3 bg-cyan-400 bg-opacity-100 border-2 rounded-xl border-[#130713]'>
                   <p className='font-semibold font-cursive text-xs text-[#130713] items-center flex flex-col text-center p-[10px] md:p-[31px]'>
                     <span className='text-[1.40rem] md:mt-0 mt-[10px] mb-[-12px] font-semibold text-center items-center mx-auto'><SlSocialInstagram /></span> <br /> Social Media
                   </p>
               </motion.a>
             </div>
-            <div className='mt-[225px] mb-[110px] mx-auto space-x-4 hidden md:grid md:grid-cols-3 xl:w-[400px] lg:w-[400px] md:w-[370px] sm:w-[275px] w-[150px]'>
+            <div className='mt-[225px] md:mb-[190px] lg:mb-[110px] mx-auto space-x-4 hidden md:grid md:grid-cols-3 xl:w-[400px] lg:w-[400px] md:w-[345px] sm:w-[275px] w-[150px]'>
                 <div className='flex'>
                   <h1 className='w-[150px] text-left text-lg font-sans font-normal text-[#130713] items-left'>
                     <span>Wanna Cook?</span><br />
