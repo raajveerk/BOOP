@@ -60,7 +60,7 @@ export const Hero = () => {
 
                 <h3 className='text-[#130713] text-center mx-auto pt-[100px] items-center  justify-center animate-bounce text-xs md:text-md'><HiArrowNarrowDown /></h3>
             </h1>
-            <h1 id="text" className='mx-auto flex flex-col mt-[180px] md:mt-[110px]'>
+            <h1 id="text" className='mx-auto cursor-default flex flex-col mt-[180px] md:mt-[110px]'>
               <p className='word font-cursive font-normal text-sm md:text-lg text-[#130713] mx-auto items-center text-center word'>Welcome to</p>
               <p id="channel-link" className='word fancy inner text-6xl md:text-8xl font-sans text-cyan-600 text-center flex font-semibold ml-[20px] md:ml-[25px] mt-[12px] md:mt-[18px]'>
                 {/* BOOP */}
@@ -89,9 +89,9 @@ export const Hero = () => {
                     <span className='letter'>.</span>
                   </span>
                 </span>
-                <span className='word md:hidden block text-sm mt-[25px] ml-[5px] rotate-[-24deg] animate-pulse text-[#130713]'>
+                {/* <span id="tapOnIt" className='word text-sm mt-[25px] ml-[5px] rotate-[-24deg] animate-pulse text-[#130713]'>
                   <PiHandTap />
-                </span>
+                </span> */}
                 {/* <span className='dos letter text-8xl'>O</span>
                 <span className='tres letter text-8xl'>O</span>
                 <span className='quattro letter text-8xl'>P</span>

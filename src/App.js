@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 // import { Router } from "react-dom";
 
 function App() {
+
   return (
     <div className="wrapper w-full m-0">
       <div className="sticky top-0 z-[500]">
