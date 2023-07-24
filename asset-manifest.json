@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BOOP/static/css/main.160b8bad.css",
-    "main.js": "/BOOP/static/js/main.685d9fce.js",
+    "main.css": "/BOOP/static/css/main.ecbd6f2c.css",
+    "main.js": "/BOOP/static/js/main.03613fe9.js",
     "static/js/787.ceddd760.chunk.js": "/BOOP/static/js/787.ceddd760.chunk.js",
     "static/media/planet.svg": "/BOOP/static/media/planet.ac1b24749a7d2676ad6e.svg",
     "static/media/tele.svg": "/BOOP/static/media/tele.592b7f9a503e811dbc96.svg",
@@ -12,12 +12,12 @@
     "static/media/spaceman.svg": "/BOOP/static/media/spaceman.ce886267374050a5b3a0.svg",
     "static/media/lines.svg": "/BOOP/static/media/lines.f19a1912455cff847af5.svg",
     "index.html": "/BOOP/index.html",
-    "main.160b8bad.css.map": "/BOOP/static/css/main.160b8bad.css.map",
-    "main.685d9fce.js.map": "/BOOP/static/js/main.685d9fce.js.map",
+    "main.ecbd6f2c.css.map": "/BOOP/static/css/main.ecbd6f2c.css.map",
+    "main.03613fe9.js.map": "/BOOP/static/js/main.03613fe9.js.map",
     "787.ceddd760.chunk.js.map": "/BOOP/static/js/787.ceddd760.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160b8bad.css",
-    "static/js/main.685d9fce.js"
+    "static/css/main.ecbd6f2c.css",
+    "static/js/main.03613fe9.js"
   ]
 }
