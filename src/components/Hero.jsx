@@ -155,7 +155,7 @@ export const Hero = () => {
                   </h1>
                 </div>
                 {/* <span className='m-0 text-center flex justify-center text-2xl text-[#130713] items-center'><PiHandshakeFill /></span> */}
-                <div className='grid grid-cols-2 space-x-2 w-[175px] items-center justify-center ml-[-4px]'>
+                <div className='grid grid-cols-2 space-x-2 w-[165px] items-center justify-center ml-[1px]'>
                   <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} href='https://forms.gle/rcjASW7NBxkXFGD16' rel='noopener' target='_blank' className='flex w-full justify-center rounded-lg border-2 border-[#130713] bg-green-200 text-center text-lg text-[#130713] items-center p-[20px]'><AiOutlineForm /></motion.a>
                   <motion.a href='mailto:khattarraajveer@gmail.com' rel='noopener' target='_blank' whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} className='flex w-full justify-center rounded-lg border-2 border-[#130713] bg-green-200 text-center text-lg text-[#130713] items-center p-[20px]'><AiOutlineMail /></motion.a>
                 </div>
