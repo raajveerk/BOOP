@@ -151,7 +151,7 @@ body {
 
 .blobBackground {
   animation: blobAm 8s ease-in-out infinite;
-  transform: translateZ(-6px) scale(1.5);
+  transform: translateZ(-4px) scale(1.8);
 }
 
 .tele {
@@ -190,7 +190,7 @@ body {
   transform: translateZ(0px) scale(2);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 767px) {
 
   .blobUno {
     transform: translateZ(-10px) scale(2);
@@ -234,7 +234,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
   .blobUno {
     transform: translateZ(-4px) scale(2.2);
