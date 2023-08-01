@@ -20,7 +20,7 @@ function App() {
         <div className='absolute w-[250px] h-[250px] top-[1250px] left-[-125px] md:top-[1450px] md:left-[-185px] lg:top-[1520px] lg:left-[-225px] bg-cover bg-scroll bg-no-repeat spaceman'></div>
         <div className='absolute top-[1850px] right-[-150px] md:top-[2165px] md:left-[50px] lg:top-[1865px] lg:left-[380px] bg-gradient-to-br from-grad-uno via-grad-dos to-grad-tres w-[550px] h-[450px] blobBackground blur-3xl opacity-70'></div>
         <div className='absolute w-[250px] h-[250px] top-[2350px] right-[-110px] md:top-[2670px] md:right-[-125px] lg:top-[2365px] lg:right-[-160px] bg-cover bg-scroll bg-no-repeat tele'></div>
-        <div className='absolute w-[250px] h-[250px] top-[3350px] left-[-200px] md:top-[3750px] md:left-[-225px] lg:top-[3250px] lg:left-[-475px] bg-cover bg-scroll bg-no-repeat planet'></div>
+        <div className='absolute w-[250px] h-[250px] top-[3350px] left-[-200px] md:top-[3750px] md:left-[-225px] lg:top-[3250px] lg:left-[-475px] xl:top-[3450px] xl:left-[-575px] bg-cover bg-scroll bg-no-repeat planet'></div>
         <div className='foreground'>
           <Hero />
         </div>
