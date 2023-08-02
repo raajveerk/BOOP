@@ -13,7 +13,7 @@ It is fully responsive and made mobile-first.
 
 ### What does BOOP. do?
 
-BOOP is an amalgamation of talented individuals that each speacilize in their respective fields. Together, we provide pretty muc any digital service you could ask for; Modern, Interactive Web-Designs to 3D Modelling, Motion Graphics, Video Editing, Graphic Design, Content Writing, SEO, Memes, Social Media Templates, Posts and everything in between.
+BOOP is an amalgamation of talented individuals that each speacilize in their respective fields. Together, we provide pretty much any digital service you could ask for; Modern, Interactive Web-Designs to 3D Modelling, Motion Graphics, Video Editing, Graphic Design, Content Writing, SEO, Memes, Social Media Templates, Posts and everything in between.
 
 
 ### Check BOOP out. Hit us up if you like what you see! :wink:
